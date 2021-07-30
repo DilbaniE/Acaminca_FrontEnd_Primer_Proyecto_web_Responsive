@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="https://kit.fontawesome.com/06def7e78b.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="./lucky.css" />
+  </head>
+  <body>
+    <div class="contenedor border">
+      <!-- -------MENU------- -->
+      <div class="menu border">
+        <img src="./img/logo.svg" alt="" class="logo" />
+        <!------menu escriitorio--  -->
+        <nav class="navegacion">
+          <ul>
+            <li>EPISODOS</li>
+            <li>NOSOTROS</li>
+            <li>ENTREVISTAS</li>
+            <li>TOPICOS</li>
+          </ul>
+        </nav>
+
+        <!--menu celulular -->
+        <nav class="navegacion-celular">
+          <input type="checkbox" id="cangreburguer" />
+          <label for="cangreburguer">
+            <span class="linea1"></span>
+            <span class="linea2"></span>
+            <span class="linea3"></span>
+          </label>
+          <!-- <input type="checkbox" id="cangreburguer" /> -->
+          <div class="nav-menu-movil">
+            <div>EPISODIOS</div>
+            <div>NOSOTROS</div>
+            <div>ENTREVISTAS</div>
+            <div>TÓPICOS</div>
+          </div>
+        </nav>
+      </div>
+      <!-- Memcabezado-->
+      <div class="encabezado">
+        <h1>
+          Hello <span class="rayita">world</span> pale blue dot<span
+            class="punto"
+            >.</spa>
+        </h1>
+        <p>
+          El portal de podcasts que explora el mundo de la programación y la
+          tecnología. Nuevos episodios, todos los jueves cada 15 días.
+        </p>
+        <button>CONOCÉ MÁS</button>
+      </div>
+      <!--  episodios-->
+      <div class="episodios">
+        <h1 id="titulo-episodios">Episodios</h1>
+        <div class="podcast">
+          <iframe
+            src="https://open.spotify.com/embed/show/2MWqU5ZbO69jy3RZ74wgdM"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            src="https://open.spotify.com/embed/show/1Et8hZk1DwKw6PtBFGpwSD"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            src="https://open.spotify.com/embed/episode/59PXOfe6zrEOky2fcl0cqH"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            src="https://open.spotify.com/embed/episode/2PSacIuV7FY0G4o3Yex1Zi"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+      </div>
+      <!--------------- info -------------->
+      <div class="info">
+        <div class="telefono">
+          <img src="./img/phone.png" alt="telefono" />
+        </div>
+        <div class="info-descripcion">
+          <h1>De dónde venimos</h1>
+          <p>
+            Our posturings, our imagined self-importance, the delusion that we
+            have some privileged position in the Universe, are challenged by
+            this point of pale light. <br />
+            <br />
+            Our planet is a lonely speck in the great enveloping cosmic dark. In
+            our obscurity, in all this vastness, there is no hint that help will
+            come from elsewhere to save us from ourselves.
+          </p>
+        </div>
+      </div>
+      <!-- -------INVITADAS ESTERALES------- -->
+      <div class="invitadas-estelares">
+        <h1>Invitadas/os estelares</h1>
+        <div class="imagenes">
+          <img src="./img/grace-hopper.png" alt="grace hopper" />
+          <img src="./img/dos.png" alt="dos" />
+          <img src="./img/tres.png" alt="tres" />
+          <img src="./img/cuatro.png" alt="cuatro" />
+          <img src="./img/cinco.png" alt="cinco" />
+          <img src="./img/seis.png" alt="seis" />
+        </div>
+        <!---------- Iconos ------------>
+        <div id="iconos">
+          <h1>Algunos de nuestros temas</h1>
+          <div class="cajas">
+            <div class="centrar">
+              <img src="./img/icon1.svg" alt="icon1" />
+              <h2>trabajo remoto</h2>
+            </div>
+            <div class="centrar">
+              <img src="./img/icon2.svg" alt="icon2" />
+              <h2>repensando la programación</h2>
+            </div>
+            <div class="centrar">
+              <img src="./img/icon3.svg" alt="icon3" />
+              <h2>bases de codigo</h2>
+            </div>
+            <div class="centrar">
+              <img src="./img/icon4.svg" alt="icon4" />
+              <h2>seguridad informatica</h2>
+            </div>
+          </div>
+        </div>
+        <!------------- novedades final ------------>
+        <div class="novedades">
+          <h1>¿Quieres las últimas novedades?</h1>
+          <button>ECUCHÁ LOS ESPISODIOS</button>
+        </div>
+        <div class="final">
+          <h1>© 2019— Hello blue pale dot</h1>
+          <div class="redes">
+            <a href="https://open.spotify.com/search/acamica">
+              <i class="fab fa-spotify"></i>
+            </a>
+
+            <a href="https://www.instagram.com/?hl=es">
+              <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://twitter.com/iniciarsesion?lang=es">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com/Acamica.org">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://web.telegram.org/z/">
+              <i class="fab fa-telegram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
